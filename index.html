@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm Anjana Patidar, a frontend developer passionate about creating beautiful, user-friendly web interfaces.I enjoy turning complex problems into simple, intuitive solutions and am always exploring new tools to improve the user experience. Whether I'm collaborating with a team or building solo projects, my goal is to create seamless digital experiences that make an impact. </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <h4>Random Password Generator :</h4>
+            <p>This is a simple and secure Random Password Generator built using HTML, CSS, and JavaScript. Users can generate strong passwords by selecting desired password length and including options like uppercase letters, lowercase letters, numbers, and special characters. The tool helps improve online security by creating complex, hard-to-guess passwords. It features a clean, responsive design and instant copy-to-clipboard functionality for convenience.</p>
+            <a href="http://127.0.0.1:3002/index.html">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <h4>Tic-Tac-Toe :</h4>
+            <p>This is a classic Tic Tac Toe game built using HTML, CSS, and JavaScript. It features a simple, responsive user interface and allows two players to take turns marking X and O on a 3x3 grid. The game automatically detects wins, draws, and includes a reset button to start a new game. I focused on building clean game logic and creating a smooth, interactive user experience using only vanilla JavaScript.</p>
+            <a href="http://127.0.0.1:3006/index.html">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Project 3</h3>
+            <h4>Stone Paper Sceissors :</h4>
+            <p>This is a simple and interactive Stone Paper Scissors game built with HTML, CSS, and JavaScript. The player selects their move (stone, paper, or scissors), and the computer randomly chooses its own. The game compares both choices, displays the result (win, lose, or draw), and updates the score in real-time. It features a responsive layout, smooth animations, and a user-friendly interface. The focus was on game logic, DOM manipulation, and providing instant feedback to the user.</p>
+            <a href="http://127.0.0.1:3004/index.html">View Project</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
